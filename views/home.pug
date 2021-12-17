@@ -1,0 +1,17 @@
+extends base.pug
+
+block style 
+     style 
+           include ../static/style.css 
+
+block content 
+    nav#navbar.top 
+          ul 
+             li #[a(href="/") Home]
+             li #[a(href="/about") About]
+             li #[a(href="/") Services]
+             li #[a(href="/") Contact us]
+    section#section1.section1class 
+           h1 About
+           
+           p You can learn Programming from this website...
